@@ -1,1 +1,2 @@
-# Hindi-Judiciary-NER
+# Rule Based Hindi NER for judiciary domain
+
