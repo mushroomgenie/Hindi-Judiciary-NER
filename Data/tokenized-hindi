@@ -1,13 +1,13 @@
 <Sentence id='1'>
 1	हम	unk	
 2	,	unk
-3	भारत	unk
+3	भारत	unk	B-LOC
 4	के	unk
 5	लोग	unk
 6	,	unk
-7	भारत	unk
+7	भारत	unk	B-LOC
 8	को	unk
-9	एक	unk
+9	एक	unk	B-DT
 10	[	unk
 11	संपूर्ण	unk
 12	प्रभुत्व	unk
@@ -86,10 +86,10 @@
 85	में	unk
 86	आज	unk
 87	तारीख	unk
-88	26	unk
-89	नवम्बर	unk
-90	,	unk
-91	1949	unk
+88	26	unk	B-DT
+89	नवम्बर	unk	I-DT
+90	,	unk	
+91	1949	unk	I-DT
 92	ई0	unk
 93	(	unk
 94	मिति	unk
@@ -98,9 +98,9 @@
 97	सप्तमी	unk
 98	,	unk
 99	संवत्	unk
-100	दो	unk
-101	हजार	unk
-102	छह	unk
+100	दो	unk	B-DT	
+101	हजार	unk	I-DT
+102	छह	unk	I-DT
 103	विक्रमी	unk
 104	)	unk
 105	को	unk
@@ -121,22 +121,22 @@
 <Sentence id='2'>
 1	संविधान	unk
 2	(	unk
-3	बयालीसवां	unk
-4	संशोधन	unk
+3	बयालीसवां	unk	B-DT
+4	संशोधन	unk	B-AT
 5	)	unk
-6	अधिनियम	unk
+6	अधिनियम	unk	
 7	,	unk
-8	1976	unk
+8	1976	unk	B-DT
 9	की	unk
 10	धारा	unk
-11	2	unk
+11	2	unk	B-LAW
 12	द्वारा	unk
 13	(	unk
-14	3	unk
+14	3	unk	I-LAW
 15	-	unk
-16	1	unk
+16	1	unk	I-LAW
 17	-	unk
-18	1977	unk
+18	1977	unk	I-LAW
 19	से	unk
 20	)	unk
 21	"	unk
@@ -156,22 +156,22 @@
 <Sentence id='3'>
 1	संविधान	unk
 2	(	unk
-3	बयालीसवां	unk
-4	संशोधन	unk
+3	बयालीसवां	unk	B-DT
+4	संशोधन	unk	B-Name
 5	)	unk
-6	अधिनियम	unk
+6	अधिनियम	unk	B-AT
 7	,	unk
-8	1976	unk
+8	1976	unk	B-DT
 9	की	unk
 10	धारा	unk
-11	2	unk
+11	2	unk	B-LAW
 12	द्वारा	unk
 13	(	unk
-14	3	unk
+14	3	unk	I-LAW
 15	-	unk
-16	1	unk
+16	1	unk	I-LAW
 17	-	unk
-18	1977	unk
+18	1977	unk	I-LAW
 19	से	unk
 20	)	unk
 21	"	unk
@@ -188,7 +188,7 @@
 
 <Sentence id='4'>
 1	भाग	unk
-2	1	unk
+2	1	unk	B-DT
 </Sentence>
 
 <Sentence id='5'>
@@ -199,7 +199,7 @@
 </Sentence>
 
 <Sentence id='6'>
-1	1	unk
+1	1	unk	B-DT
 2	.	unk
 3	संघ	unk
 4	का	unk
@@ -211,12 +211,12 @@
 
 <Sentence id='7'>
 1	(	unk
-2	1	unk
+2	1	unk	B-DT
 3	)	unk
-4	भारत	unk
+4	भारत	unk	B-LOC
 5	,	unk
 6	अर्थात्	unk
-7	इंडिया	unk
+7	इंडिया	unk	I-LOC
 8	,	unk
 9	राज्यों	unk
 10	का	unk
@@ -228,7 +228,7 @@
 <Sentence id='8'>
 1	[	unk
 2	(	unk
-3	2	unk
+3	2	unk	B-DT
 4	)	unk
 5	राज्य	unk
 6	और	unk
@@ -248,9 +248,9 @@
 
 <Sentence id='9'>
 1	(	unk
-2	3	unk
+2	3	unk	B-DT
 3	)	unk
-4	भारत	unk
+4	भारत	unk	B-LOC
 5	के	unk
 6	राज्यक्षेत्र	unk
 7	में	unk
@@ -300,7 +300,7 @@
 </Sentence>
 
 <Sentence id='13'>
-1	2	unk
+1	2	unk	B-DT
 2	.	unk
 3	नए	unk
 4	राज्यों	unk
@@ -343,7 +343,7 @@
 </Sentence>
 
 <Sentence id='15'>
-1	2क	unk
+1	2क	unk	B-DT
 2	.	unk
 3	[	unk
 4	सिक्किम	unk
@@ -359,24 +359,24 @@
 </Sentence>
 
 <Sentence id='16'>
-1	संविधान	unk
+1	संविधान	unk	B-Name
 2	(	unk
-3	छत्तीसवां	unk
-4	संशोधन	unk
+3	छत्तीसवां	unk	B-DT
+4	संशोधन	unk	B-AT
 5	)	unk
-6	अधिनियम	unk
+6	अधिनियम	unk	
 7	,	unk
-8	1975	unk
+8	1975	unk	B-DT
 9	की	unk
 10	धारा	unk
-11	5	unk
+11	5	unk	B-LAW
 12	द्वारा	unk
 13	(	unk
-14	26	unk
+14	26	unk	I-LAW
 15	-	unk
-16	4	unk
+16	4	unk	I-LAW
 17	-	unk
-18	1975	unk
+18	1975	unk	I-LAW
 19	से	unk
 20	)	unk
 21	निरसित	unk
@@ -384,7 +384,7 @@
 </Sentence>
 
 <Sentence id='17'>
-1	3	unk
+1	3	unk	B-DT
 2	.	unk
 3	नए	unk
 4	राज्यों	unk
@@ -424,7 +424,7 @@
 10	अलग	unk
 11	करके	unk
 12	अथवा	unk
-13	दो	unk
+13	दो	unk	B-DT
 14	या	unk
 15	अधिक	unk
 16	राज्यों	unk
@@ -520,7 +520,7 @@
 6	लिए	unk
 7	कोई	unk
 8	विधेयक	unk
-9	राष्ट्रपति	unk
+9	राष्ट्रपति	unk	B-Name
 10	की	unk
 11	सिपारिश	unk
 12	के	unk
@@ -578,7 +578,7 @@
 64	के	unk
 65	भीतर	unk
 66	जो	unk
-67	राष्ट्रपति	unk
+67	राष्ट्रपति	unk	B-Name
 68	द्वारा	unk
 69	अनुज्ञात	unk
 70	की	unk
@@ -591,7 +591,7 @@
 77	लिए	unk
 78	वह	unk
 79	विधेयक	unk
-80	राष्ट्रपति	unk
+80	राष्ट्रपति	unk	B-Name
 81	द्वारा	unk
 82	उसे	unk
 83	निर्देशित	unk
@@ -629,7 +629,7 @@
 <Sentence id='25'>
 1	[	unk
 2	स्पष्टीकरण	unk
-3	1	unk
+3	1	unk	B-DT
 4	-	unk
 5	इस	unk
 6	अनुच्छेद	unk
@@ -671,7 +671,7 @@
 
 <Sentence id='26'>
 1	स्पष्टीकरण	unk
-2	2	unk
+2	2	unk	B-DT
 3	-	unk
 4	खंड	unk
 5	(	unk
@@ -716,15 +716,15 @@
 </Sentence>
 
 <Sentence id='27'>
-1	4	unk
+1	4	unk	B-DT
 2	.	unk
 3	पहली	unk
 4	अनुसूची	unk
 5	और	unk
-6	चौथी	unk
+6	चौथी	unk	B-DT
 7	अनुसूची	unk
 8	के	unk
-9	संशोधन	unk
+9	संशोधन	unk	B-Name
 10	तथा	unk
 11	अनुपूरक	unk
 12	,	unk
@@ -738,10 +738,10 @@
 20	के	unk
 21	लिए	unk
 22	अनुच्छेद	unk
-23	2	unk
+23	2	unk	B-DT
 24	और	unk
 25	अनुच्छेद	unk
-26	3	unk
+26	3	unk	B-DT
 27	के	unk
 28	अधीन	unk
 29	बनाई	unk
@@ -754,22 +754,22 @@
 2	1	unk
 3	)	unk
 4	अनुच्छेद	unk
-5	2	unk
+5	2	unk	B-DT
 6	या	unk
 7	अनुच्छेद	unk
-8	3	unk
+8	3	unk	B-DT
 9	में	unk
 10	निार्दिष्ट	unk
 11	किसी	unk
 12	विधि	unk
-13	में	unk
-14	पहली	unk
+13	में	unk	
+14	पहली	unk	B-DT
 15	अनुसूची	unk
 16	और	unk
-17	चौथी	unk
+17	चौथी	unk	B-DT
 18	अनुसूची	unk
 19	के	unk
-20	संशोधन	unk
+20	संशोधन	unk	B-Name
 21	के	unk
 22	लिए	unk
 23	ॠसे	unk
@@ -838,7 +838,7 @@
 
 <Sentence id='29'>
 1	(	unk
-2	2	unk
+2	2	unk	B-DT
 3	)	unk
 4	पूर्वोक्त	unk
 5	प्रकार	unk
@@ -846,15 +846,15 @@
 7	कोई	unk
 8	विधि	unk
 9	अनुच्छेद	unk
-10	368	unk
+10	368	unk	B-DT
 11	के	unk
 12	प्रयोजनों	unk
 13	के	unk
 14	लिए	unk
 15	इस	unk
-16	संविधान	unk
+16	संविधान	unk	B-Name
 17	का	unk
-18	संशोधन	unk
+18	संशोधन	unk	B-AT
 19	नहाीं	unk
 20	समझी	unk
 21	जाएगी	unk
@@ -862,21 +862,21 @@
 </Sentence>
 
 <Sentence id='30'>
-1	संविधान	unk
+1	संविधान	unk	B-Name
 2	(	unk
-3	सातवां	unk
-4	संशोधन	unk
+3	सातवां	unk	B-DT
+4	संशोधन	unk	B-AT
 5	)	unk
-6	अधिनियम	unk
+6	अधिनियम	unk	
 7	,	unk
-8	1956	unk
+8	1956	unk	B-DT
 9	की	unk
 10	धारा	unk
-11	2	unk
+11	2	unk	B-LAW
 12	द्वारा	unk
 13	खंड	unk
 14	(	unk
-15	2	unk
+15	2	unk	I-LAW
 16	)	unk
 17	के	unk
 18	स्थान	unk
@@ -886,21 +886,21 @@
 </Sentence>
 
 <Sentence id='31'>
-1	संविधान	unk
+1	संविधान	unk	B-Name
 2	(	unk
-3	सातवां	unk
-4	संशोधन	unk
+3	सातवां	unk	B-DT
+4	संशोधन	unk	B-AT
 5	)	unk
 6	अधिनियम	unk
 7	,	unk
-8	1956	unk
+8	1956	unk	B-DT
 9	की	unk
 10	धारा	unk
-11	2	unk
+11	2	unk	B-LAW
 12	द्वारा	unk
 13	उपखंड	unk
 14	(	unk
-15	ख	unk
+15	ख	unk	I-LAW
 16	)	unk
 17	के	unk
 18	स्थान	unk
@@ -910,24 +910,24 @@
 </Sentence>
 
 <Sentence id='32'>
-1	संविधान	unk
+1	संविधान	unk	B-Name	
 2	(	unk
-3	पैंतीसवां	unk
-4	संशोधन	unk
+3	पैंतीसवां	unk	B-DT
+4	संशोधन	unk	B-AT
 5	)	unk
 6	अधिनियम	unk
 7	,	unk
-8	1974	unk
+8	1974	unk	B-DT
 9	की	unk
 10	धारा	unk
-11	2	unk
+11	2	unk	B-LAW
 12	द्वारा	unk
 13	(	unk
-14	1	unk
+14	1	unk	I-LAW
 15	-	unk
-16	3	unk
+16	3	unk	I-LAW
 17	-	unk
-18	1975	unk
+18	1975	unk	I-LAW
 19	से	unk
 20	)	unk
 21	अंतःस्थापित	unk
@@ -935,17 +935,17 @@
 </Sentence>
 
 <Sentence id='33'>
-1	संविधान	unk
+1	संविधान	unk	B-Name
 2	(	unk
-3	पांचवां	unk
-4	संशोधन	unk
+3	पांचवां	unk	B-DT
+4	संशोधन	unk	B-AT
 5	)	unk
 6	अधिनियम	unk
 7	,	unk
-8	1955	unk
+8	1955	unk	B-DT
 9	की	unk
 10	धारा	unk
-11	2	unk
+11	2	unk	B-LAW
 12	द्वारा	unk
 13	परंतुक	unk
 14	के	unk
@@ -956,22 +956,22 @@
 </Sentence>
 
 <Sentence id='34'>
-1	संविधान	unk
+1	संविधान	unk	B-Name
 2	(	unk
-3	सातवां	unk
-4	संशोधन	unk
+3	सातवां	unk	B-DT
+4	संशोधन	unk	B-AT
 5	)	unk
 6	अधिनियम	unk
 7	,	unk
-8	1956	unk
+8	1956	unk	B-DT
 9	की	unk
 10	धारा	unk
-11	29	unk
+11	29	unk	B-LAW
 12	और	unk
 13	अनुसूची	unk
 14	द्वारा	unk
 15	"	unk
-16	पहली	unk
+16	पहली	unk	I-LAW
 17	अनुसूची	unk
 18	के	unk
 19	भाग	unk
@@ -993,17 +993,17 @@
 </Sentence>
 
 <Sentence id='35'>
-1	संविधान	unk
+1	संविधान	unk	B-Name
 2	(	unk
-3	अठारहवां	unk
-4	संशोधन	unk
+3	अठारहवां	unk	B-DT
+4	संशोधन	unk	B-AT
 5	)	unk
 6	अधिनियम	unk
 7	,	unk
-8	1966	unk
+8	1966	unk	B-DT
 9	की	unk
 10	धारा	unk
-11	2	unk
+11	2	unk	B-LAW
 12	द्वारा	unk
 13	अंतःस्थापित	unk
 14	।	unk
@@ -1011,7 +1011,7 @@
 
 <Sentence id='36'>
 1	भाग	unk
-2	2	unk
+2	2	unk	B-DT
 </Sentence>
 
 <Sentence id='37'>
@@ -1019,9 +1019,9 @@
 </Sentence>
 
 <Sentence id='38'>
-1	5	unk
+1	5	unk	B-DT
 2	.	unk
-3	संविधान	unk
+3	संविधान	unk	B-Name
 4	के	unk
 5	प्रारंभ	unk
 6	पर	unk
@@ -1031,14 +1031,14 @@
 
 <Sentence id='39'>
 1	इस	unk
-2	संविधान	unk
-3	के	unk
+2	संविधान	unk	B-Name
+3	के	unk	
 4	प्रारंभ	unk
 5	पर	unk
 6	प्रत्येक	unk
 7	व्यक्ति	unk
 8	जिसका	unk
-9	भारत	unk
+9	भारत	unk	B-LOC
 10	के	unk
 11	राज्यक्षेत्र	unk
 12	में	unk
@@ -1052,7 +1052,7 @@
 2	क	unk
 3	)	unk
 4	जो	unk
-5	भारत	unk
+5	भारत	unk	B-LOC
 6	के	unk
 7	राज्यक्षेत्र	unk
 8	में	unk
@@ -1073,8 +1073,8 @@
 8	में	unk
 9	से	unk
 10	कोई	unk
-11	भारत	unk
-12	के	unk
+11	भारत	unk	B-LOC
+12	के	unk	
 13	राज्यक्षेत्र	unk
 14	में	unk
 15	जन्मा	unk
@@ -1092,14 +1092,14 @@
 6	प्रारंभ	unk
 7	से	unk
 8	ठीक	unk
-9	पहले	unk
+9	पहले	unk	B-DT
 10	कम	unk
 11	से	unk
 12	कम	unk
-13	पांच	unk
+13	पांच	unk	B-DT
 14	वर्ष	unk
 15	तक	unk
-16	भारत	unk
+16	भारत	unk	B-LOC
 17	के	unk
 18	राज्यक्षेत्र	unk
 19	में	unk
@@ -1110,7 +1110,7 @@
 24	रहा	unk
 25	है	unk
 26	,	unk
-27	भारत	unk
+27	भारत	unk	B-LOC
 28	का	unk
 29	नागरिक	unk
 30	होगा	unk
@@ -1118,11 +1118,11 @@
 </Sentence>
 
 <Sentence id='43'>
-1	6	unk
+1	6	unk	B-DT
 2	.	unk
 3	पाकिस्तान	unk
 4	से	unk
-5	भारत	unk
+5	भारत	unk	B-LOC
 6	को	unk
 7	प्रव्रजन	unk
 8	करने	unk
