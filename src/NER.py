@@ -49,8 +49,9 @@ for word in range(len(words)):
 	if words[word] == u"संविधान" and words[word+2] == u"संशोधन":
 		words[word+1] += "/B-Amendment"
 		words[word+2] += "/I-Amendment"
-	elif words[word] == u"अनुच्छेद":
-		pass	
+	elif words[word] == u"अनुच्छेद" and words[word+1].isnumeric():
+		words[word] += "/B-Article"
+		words[word+1] += "/I-Article"
 	elif words[word] == u"धारा" and word != len(words)-1 and words[word+1].isnumeric():
 		words[word] += "/B-Section"
 		words[word+1] += "/I-Section"
